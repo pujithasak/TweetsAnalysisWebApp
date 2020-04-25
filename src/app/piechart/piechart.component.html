@@ -1,0 +1,72 @@
+<section>
+    <div class="leftPan">
+        
+          <nav>
+            <ul>
+              <li class="lclass"><a (click)="showQuery1Result()">Query 1</a></li>
+              <li class="lclass"><a (click)="showQuery2Result()">Query 2</a></li>
+              <li class="lclass"><a (click)="showQuery3Result()">Query 3</a></li>
+              <li class="lclass"><a (click)="showQuery4Result()">Query 4</a></li>
+              <li class="lclass"><a (click)="showQuery5Result()">Query 5</a></li>
+              <li class="lclass"><a (click)="showQuery6Result()">Query 6</a></li>
+              <li class="lclass"><a (click)="showQuery7Result()">Query 7</a></li>
+              <li class="lclass"><a (click)="showQuery8Result()">Query 8</a></li>
+              <li class="lclass"><a (click)="showQuery9Result()">Query 9</a></li>
+              <li class="lclass"><a (click)="showQuery10Result()">Query 10</a></li>
+              <li class="lclass"><a (click)="showQuery11Result()">Query 11</a></li>
+              <li class="lclass"><a (click)="showQuery12Result()">Query 12</a></li>
+              
+            </ul>
+          </nav>
+        <script>
+        </script>
+    </div> 
+          
+    <div *ngIf="isQuery1Shown" style="float: right;width: 75%;">
+        <app-query1></app-query1>     
+    </div>
+    
+    <div *ngIf="isQuery2Shown" style="float: right;width: 75%;">
+        <app-query2></app-query2>
+    </div>
+        
+    <div *ngIf="isQuery3Shown" style="float: right;width: 75%;">
+        <app-query3></app-query3>
+    </div>
+
+    <div *ngIf="isQuery4Shown" style="float: right;width: 75%;">
+        <app-query4></app-query4>     
+    </div>
+  
+    <div *ngIf="isQuery5Shown" style="float: right;width: 75%;">
+        <app-query5></app-query5>
+    </div>
+      
+    <div *ngIf="isQuery6Shown" style="float: right;width: 75%;">
+        <app-query6></app-query6>
+    </div> 
+
+    <div *ngIf="isQuery7Shown" style="float: right;width: 75%;">
+        <app-query7></app-query7>     
+    </div>
+  
+    <div *ngIf="isQuery8Shown" style="float: right;width: 75%;">
+        <app-query8></app-query8>
+    </div>
+      
+    <div *ngIf="isQuery9Shown" style="float: right;width: 75%;">
+        <app-query9></app-query9>
+    </div>  
+
+    <div *ngIf="isQuery10Shown" style="float: right;width: 75%;">
+        <app-query10></app-query10>     
+    </div>
+  
+    <div *ngIf="isQuery11Shown" style="float: right;width: 75%;">
+        <app-query11></app-query11>
+    </div>
+      
+    <div *ngIf="isQuery12Shown" style="float: right;width: 75%;">
+        <app-query12></app-query12>
+    </div>
+</section>

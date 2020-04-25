@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+
+$primary: rgb(94, 80, 80, 0.349);
+.leftPan {
+  background: $primary;
+  padding: 1em 0;
+  width: 100%;
+}
+  
+  .leftPan a {
+    background-color: rgb(94, 80, 80, 0.349);
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 23px;
+    text-align: centre;
+  
+  }
+  
+  .leftPan a:hover {
+    color: rgb(255, 0, 106);
+    background-color: rgb(235, 171, 98);
+  
+  }
+  li{
+  display: list-item;
+    text-align: -webkit-match-parent;
+  }
+  .leftPan{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    box-shadow: 5px 5px 5px grey;
+  }
+  
+  
+  .leftPan a.active {
+    background-color: #4CAF50;
+    color: red;
+  }
+  ul{
+  padding-left: 0px !important;
+  text-align: center;
+  }

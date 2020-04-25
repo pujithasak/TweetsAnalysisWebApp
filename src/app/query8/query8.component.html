@@ -1,0 +1,21 @@
+<div class ="title">Top 10 Countries With Highest Number Of Followers</div>
+
+
+<div class="table-responsive">  
+<table class="table">
+  <thead >
+    <tr>           
+      <th *ngFor="let head of users[0] | keys2" scope="col">{{head}}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr mdbTableCol *ngFor="let item of users">           
+      <td *ngFor="let list of item | keys2">{{item[list]}}</td>
+    </tr>
+  </tbody>
+</table>
+<div class="table">
+<img [src]="base64Image" alt="Visualized output" class="center">
+</div>
+  
+
