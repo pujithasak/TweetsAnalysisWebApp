@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { PiechartComponent } from './piechart/piechart.component';
 
 const routes: Routes = [
-  {path: 'piechart',component : PiechartComponent}
+  {path: '',component : PiechartComponent}
 ];
 
 @NgModule({
